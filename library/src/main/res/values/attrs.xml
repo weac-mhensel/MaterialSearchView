@@ -12,4 +12,8 @@
         <attr name="android:textColorHint" />
         <attr name="android:inputType" />
     </declare-styleable>
+    <declare-styleable name="SubmitButtonSearchBar" >
+        <attr name="showSubmitButton" format="boolean" />
+        <attr name="searchSubmitIcon" format="integer" />
+    </declare-styleable>
 </resources>
