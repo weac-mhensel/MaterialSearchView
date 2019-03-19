@@ -15,5 +15,15 @@
     <declare-styleable name="SubmitButtonSearchBar" >
         <attr name="showSubmitButton" format="boolean" />
         <attr name="searchSubmitIcon" format="integer" />
+        <attr name="searchBackground" />
+        <attr name="searchVoiceIcon" />
+        <attr name="searchCloseIcon" />
+        <attr name="searchBackIcon" />
+        <attr name="searchSuggestionIcon" />
+        <attr name="searchSuggestionBackground" />
+        <attr name="android:hint" />
+        <attr name="android:textColor" />
+        <attr name="android:textColorHint" />
+        <attr name="android:inputType" />
     </declare-styleable>
 </resources>

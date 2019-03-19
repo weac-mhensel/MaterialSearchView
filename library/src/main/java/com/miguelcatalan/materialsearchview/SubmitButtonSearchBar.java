@@ -101,40 +101,40 @@ public class SubmitButtonSearchBar extends FrameLayout implements Filter.FilterL
         TypedArray a = mContext.obtainStyledAttributes(attrs, R.styleable.SubmitButtonSearchBar, defStyleAttr, 0);
 
         if (a != null) {
-            if (a.hasValue(R.styleable.MaterialSearchView_searchBackground)) {
-                setBackground(a.getDrawable(R.styleable.MaterialSearchView_searchBackground));
+            if (a.hasValue(R.styleable.SubmitButtonSearchBar_searchBackground)) {
+                setBackground(a.getDrawable(R.styleable.SubmitButtonSearchBar_searchBackground));
             }
 
-            if (a.hasValue(R.styleable.MaterialSearchView_android_textColor)) {
-                setTextColor(a.getColor(R.styleable.MaterialSearchView_android_textColor, 0));
+            if (a.hasValue(R.styleable.SubmitButtonSearchBar_android_textColor)) {
+                setTextColor(a.getColor(R.styleable.SubmitButtonSearchBar_android_textColor, 0));
             }
 
-            if (a.hasValue(R.styleable.MaterialSearchView_android_textColorHint)) {
-                setHintTextColor(a.getColor(R.styleable.MaterialSearchView_android_textColorHint, 0));
+            if (a.hasValue(R.styleable.SubmitButtonSearchBar_android_textColorHint)) {
+                setHintTextColor(a.getColor(R.styleable.SubmitButtonSearchBar_android_textColorHint, 0));
             }
 
-            if (a.hasValue(R.styleable.MaterialSearchView_android_hint)) {
-                setHint(a.getString(R.styleable.MaterialSearchView_android_hint));
+            if (a.hasValue(R.styleable.SubmitButtonSearchBar_android_hint)) {
+                setHint(a.getString(R.styleable.SubmitButtonSearchBar_android_hint));
             }
 
-            if (a.hasValue(R.styleable.MaterialSearchView_searchVoiceIcon)) {
-                setVoiceIcon(a.getDrawable(R.styleable.MaterialSearchView_searchVoiceIcon));
+            if (a.hasValue(R.styleable.SubmitButtonSearchBar_searchVoiceIcon)) {
+                setVoiceIcon(a.getDrawable(R.styleable.SubmitButtonSearchBar_searchVoiceIcon));
             }
 
-            if (a.hasValue(R.styleable.MaterialSearchView_searchCloseIcon)) {
-                setCloseIcon(a.getDrawable(R.styleable.MaterialSearchView_searchCloseIcon));
+            if (a.hasValue(R.styleable.SubmitButtonSearchBar_searchCloseIcon)) {
+                setCloseIcon(a.getDrawable(R.styleable.SubmitButtonSearchBar_searchCloseIcon));
             }
 
-            if (a.hasValue(R.styleable.MaterialSearchView_searchBackIcon)) {
-                setBackIcon(a.getDrawable(R.styleable.MaterialSearchView_searchBackIcon));
+            if (a.hasValue(R.styleable.SubmitButtonSearchBar_searchBackIcon)) {
+                setBackIcon(a.getDrawable(R.styleable.SubmitButtonSearchBar_searchBackIcon));
             }
 
-            if (a.hasValue(R.styleable.MaterialSearchView_searchSuggestionBackground)) {
-                setSuggestionBackground(a.getDrawable(R.styleable.MaterialSearchView_searchSuggestionBackground));
+            if (a.hasValue(R.styleable.SubmitButtonSearchBar_searchSuggestionBackground)) {
+                setSuggestionBackground(a.getDrawable(R.styleable.SubmitButtonSearchBar_searchSuggestionBackground));
             }
 
-            if (a.hasValue(R.styleable.MaterialSearchView_searchSuggestionIcon)) {
-                setSuggestionIcon(a.getDrawable(R.styleable.MaterialSearchView_searchSuggestionIcon));
+            if (a.hasValue(R.styleable.SubmitButtonSearchBar_searchSuggestionIcon)) {
+                setSuggestionIcon(a.getDrawable(R.styleable.SubmitButtonSearchBar_searchSuggestionIcon));
             }
 
             if (a.hasValue(R.styleable.SubmitButtonSearchBar_searchSubmitIcon)) {
